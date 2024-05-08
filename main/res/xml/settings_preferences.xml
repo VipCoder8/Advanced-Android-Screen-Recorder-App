@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Video">
+        <Preference
+            android:key="output_directory"
+            android:title="@string/settings_preferences_output_directory_text"
+            android:summary="Directory in which files will be stored"/>
+
+        <ListPreference
+            android:key="output_formats"
+            android:title="@string/settings_preferences_output_formant_text"
+            android:entries="@array/output_formats"
+            android:entryValues="@array/output_formats_indexes"
+            android:defaultValue="MP4"
+            android:summary="Format that will be used for output files"/>
+
+        <ListPreference
+            android:key="video_encoders"
+            android:title="@string/settings_preferences_video_encoder_text"
+            android:summary="Video Encoder"
+            android:defaultValue="H264"
+            android:entries="@array/video_encoders"
+            android:entryValues="@array/video_encoders_indexes"/>
+
+        <ListPreference
+            android:key="video_fps"
+            android:title="@string/settings_preferences_fps_text"
+            android:entries="@array/video_fps"
+            android:entryValues="@array/video_fps_indexes"
+            android:summary="FPS for video"/>
+
+        <ListPreference
+            android:key="video_bitrate"
+            android:title="@string/settings_preferences_bitrate_text"
+            android:entries="@array/video_bitrates"
+            android:entryValues="@array/video_bitrates_indexes"
+            android:summary="Bitrate for video"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

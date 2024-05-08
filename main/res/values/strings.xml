@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">BCorder</string>
+
+    <string name="screen_recorder">Record Screen</string>
+
+    <string name="audio_recorder">Record Audio</string>
+
+    <string name="bottom_navigation_menu_settings_text">Settings</string>
+    <string name="bottom_navigation_menu_files_text">Files</string>
+
+    <string name="fragment_files_appbar_menu_videos_category_text">VIDEOS</string>
+    <string name="fragment_files_appbar_menu_audios_category_text">AUDIOS</string>
+
+    <string name="settings_preferences_output_directory_text">Output Directory</string>
+    <string name="settings_preferences_video_encoder_text">Video Encoder</string>
+    <string name="settings_preferences_output_formant_text">Output Format</string>
+    <string name="settings_preferences_fps_text">Video FPS</string>
+    <string name="settings_preferences_bitrate_text">Video Bitrate</string>
+
+    <string-array name="video_fps">
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="video_fps_indexes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="output_formats">
+        <item>MPEG4</item>
+        <item>MPEG2</item>
+        <item>WEBM</item>
+    </string-array>
+    <string-array name="output_formats_indexes">
+        <item>2</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="video_encoders">
+        <item>H263</item>
+        <item>H264</item>
+        <item>HEVC</item>
+        <item>MPEG4_SP</item>
+        <item>VP8</item>
+        <item>VP9</item>
+    </string-array>
+    <string-array name="video_encoders_indexes">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="video_bitrates">
+        <item>500kpbs</item>
+        <item>1mbps</item>
+        <item>5mbps</item>
+        <item>6mpbs</item>
+        <item>7mpbs</item>
+        <item>8mpbs</item>
+        <item>10mpbs</item>
+    </string-array>
+    <string-array name="video_bitrates_indexes">
+        <item>50000</item>
+        <item>1000000</item>
+        <item>5000000</item>
+        <item>6000000</item>
+        <item>7000000</item>
+        <item>8000000</item>
+        <item>10000000</item>
+    </string-array>
+</resources>
